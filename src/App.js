@@ -17,8 +17,6 @@ function App() {
       <Mac />
       <Ipad />
       <Watch />
-      {/* change is permanenet */}
-      {/* app.js */}
     </div>
   );
 }

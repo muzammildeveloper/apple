@@ -10,7 +10,6 @@ import Watch from "./components/watch/Watch";
 function App() {
   return (
     <div className="App">
-      {/* Mujeeb commited the code here */}
       <Navbar />
       <Home />
       <Store />

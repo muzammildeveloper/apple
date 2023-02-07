@@ -1,0 +1,37 @@
+.navbar{
+    height: 3rem;
+    width: 100%;
+position: relative;
+
+}
+
+.top-navbar{
+height: 3rem; 
+width: 100%;
+position: absolute;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+background: rgba(49, 46, 46, 0.861);
+cursor: pointer;
+
+}
+.top-navbar > a{
+    text-decoration: none;  
+    color: rgba(235, 229, 229, 0.505);  }
+.top-navbar > a img{
+height: 1.7rem;  
+width: 1.5rem; 
+}
+.search{
+    display: flex;
+    margin: 0 4px;
+}
+.search input{
+    width: 110px;
+    padding: 2px;
+    border-radius: 5px;
+    background-color: rgba(184, 166, 166, 0.137);
+    color: rgb(235, 225, 225);
+    
+}

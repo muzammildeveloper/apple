@@ -1,0 +1,38 @@
+.watch-wrapper{
+    position: relative;
+    overflow: hidden;
+    padding: 26px;
+    height: 90vh;
+}
+.watch-container{
+    padding: 0 10px;
+    display: flex;
+    overflow-x: scroll; 
+    scroll-behavior: smooth;
+}
+.watch-container::-webkit-scrollbar {
+    display: none;
+  }
+  .backarrow-btn,
+  .forarrowarrow-btn{
+      border: none;
+      width: 60px;
+      height: 100%;
+      position: absolute;
+      bottom: 40px;
+      display: flex;
+      justify-content: center;
+align-items: center;
+background-color: rgba(147, 125, 125, 0);
+
+}
+.forarrowarrow-btn{
+   right: 0; 
+}
+
+.backarrow-btn p,
+.forarrowarrow-btn p{
+    font-size: 50px;
+    
+    cursor: pointer;
+}

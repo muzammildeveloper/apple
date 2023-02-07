@@ -1,0 +1,41 @@
+.card{
+    min-width: 300px;
+    max-width: 300px;
+    height: 500px;
+    margin: 5px;
+}
+.card_img{
+    height: 350px;
+}
+.card_info{
+    position: relative;
+    width: 75%;
+    height: 18vh;
+    
+}
+.card_title{
+    color: #000;
+    font-weight: 500;
+    height: 23px;
+
+}
+.card_price{
+    color: #000;
+    font-weight: 550;
+    height: 20px;
+    
+}
+.btn-card{
+    height: 30px;
+
+}
+.btn-card button{
+    width: 60px;
+    border-radius: 20px;
+    height: 31px;
+    font-size: medium;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    font-weight: 400;
+}

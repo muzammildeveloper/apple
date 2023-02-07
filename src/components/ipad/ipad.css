@@ -1,0 +1,39 @@
+ .wrapper-Ipad{
+    position: relative;
+    overflow: hidden;
+    padding: 26px;
+    height: 90vh;
+}
+
+.ipad-container{
+    padding: 0 10px;
+    display: flex;
+    overflow-x: scroll; 
+    scroll-behavior: smooth;
+} 
+.ipad-container::-webkit-scrollbar {
+    display: none;
+  }
+  .back-btn,
+  .forw-btn{
+      border: none;
+      width: 60px;
+      height: 100%;
+      position: absolute;
+      bottom: 40px;
+      display: flex;
+      justify-content: center;
+align-items: center;
+background-color: rgba(147, 125, 125, 0);
+
+}
+.forw-btn{
+    right: 0;
+}
+
+.back-btn p,
+.forw-btn p{
+    font-size: 50px;
+    
+    cursor: pointer;
+}

@@ -1,0 +1,41 @@
+.mac-wrapper{
+    position: relative;
+    overflow: hidden;
+    padding: 26px;
+    height: 90vh;
+}
+.mac-container{
+    padding: 0 26px;
+    display: flex;
+    overflow-x: scroll; 
+    scroll-behavior: smooth;
+}
+.mac-container::-webkit-scrollbar {
+    display: none;
+  }
+  .backward-btn,
+  .forward-btn{
+      border: none;
+      width: 60px;
+      height: 100%;
+      position: absolute;
+      bottom: 40px;
+      display: flex;
+      justify-content: center;
+align-items: center;
+background-color: rgba(147, 125, 125, 0);
+
+}
+.forward-btn{
+    right: 0;
+}
+
+.backward-btn p,
+.forward-btn p{
+    font-size: 50px;
+    
+    cursor: pointer;
+}
+
+
+

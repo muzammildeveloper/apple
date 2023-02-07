@@ -17,6 +17,7 @@ function App() {
       <Mac />
       <Ipad />
       <Watch />
+      {/* change is permanenet */}
     </div>
   );
 }
